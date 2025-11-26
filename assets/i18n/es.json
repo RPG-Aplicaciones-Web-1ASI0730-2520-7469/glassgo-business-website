@@ -74,11 +74,20 @@
       }
     },
     "about_video": {
-      "title": "Sobre el equipo",
-      "subtitle": "Video proximamente: Un vistazo a cómo trabajamos, nuestras prácticas de ingeniería y nuestra cultura.",
+      "title": "Sobre el Equipo",
+      "subtitle": "Descubre cómo trabajamos, nuestras prácticas de ingeniería y nuestra cultura.",
       "badge": "Próximamente",
       "cta": "Video disponible pronto",
-      "note": "Estamos preparando el video para nuestro canal de YouTube. ¡Vuelve pronto!"
+      "note": "Estamos preparando el video en nuestro canal de YouTube. ¡Vuelve pronto!"
+    }
+  },
+  "product": {
+    "about_video": {
+      "title": "Sobre el Producto",
+      "subtitle": "Descubre cómo funciona nuestra plataforma y cómo puede transformar tu logística.",
+      "badge": "Próximamente",
+      "cta": "Video disponible pronto",
+      "note": "Estamos preparando el video en nuestro canal de YouTube. ¡Vuelve pronto!"
     }
   },
   "benefits": {

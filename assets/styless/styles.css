@@ -223,11 +223,11 @@ body {
     cursor: pointer;
     user-select: none;
     transition: all 0.3s ease;
-    padding: 0.5rem;
+    padding: 0.75rem 1rem;
     border-radius: 8px;
     border: 1px solid #e2e8f0;
     background: white;
-    min-width: 120px;
+    min-width: 140px;
 }
 
 .language-selector:hover {
@@ -240,23 +240,33 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
 }
 
 .language-flag {
-    font-size: 1.2rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #2b6cb0;
+    background: #ebf8ff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
 }
 
 .language-text {
     font-weight: 500;
     color: #4a5568;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    text-align: center;
+    flex: 1;
 }
 
 .dropdown-arrow {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #718096;
     transition: transform 0.3s ease;
+    margin-left: auto;
 }
 
 .language-selector.active .dropdown-arrow {
@@ -771,6 +781,14 @@ body {
 .about-team-container { width: min(1000px, 92%); margin: 0 auto; text-align: center; }
 .about-team-title { font-size: 3rem; font-weight: 700; margin-bottom: 10px; }
 .about-team-subtitle { color: #a3aab8; margin-bottom: 24px; }
+.about-team-note { color: #9aa4ba; margin-top: 14px; }
+
+/* ===== About the Product (Video Placeholder) ===== */
+.about-product { padding: 60px 0 90px; background: #2d3748; color: #e5e7eb; }
+.about-product-container { width: min(1000px, 92%); margin: 0 auto; text-align: center; }
+.about-product-title { font-size: 3rem; font-weight: 700; margin-bottom: 10px; }
+.about-product-subtitle { color: #a3aab8; margin-bottom: 24px; }
+.about-product-note { color: #9aa4ba; margin-top: 14px; }
 
 .video-shell {
   width: 100%;
@@ -799,7 +817,6 @@ body {
   border: 1px dashed rgba(99,102,241,.45);
   color: #dbe4ff; font-weight: 600;
 }
-.about-team-note { color: #9aa4ba; margin-top: 14px; }
 
 
 /* ==========================================================================

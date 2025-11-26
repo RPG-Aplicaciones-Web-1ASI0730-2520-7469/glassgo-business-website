@@ -75,10 +75,19 @@
     },
     "about_video": {
       "title": "About the Team",
-      "subtitle": "Coming soon: a look at how we work, our engineering practices, and our culture.",
+      "subtitle": "Discover how we work, our engineering practices and our culture.",
       "badge": "Coming soon",
       "cta": "Video available soon",
-      "note": "We are preparing the video for our YouTube channel. Check back soon!"
+      "note": "We're preparing the video for our YouTube channel. Come back soon!"
+    }
+  },
+  "product": {
+    "about_video": {
+      "title": "About the Product",
+      "subtitle": "Discover how our platform works and how it can transform your logistics.",
+      "badge": "Coming soon",
+      "cta": "Video available soon",
+      "note": "We're preparing the video for our YouTube channel. Come back soon!"
     }
   },
   "benefits": {
